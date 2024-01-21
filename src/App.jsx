@@ -1,5 +1,6 @@
 import "./App.css";
-import Main from "./components/DigitalClock/Main";
+import Main from "./components/userFeedApp/Main";
+// import Main from "./components/DigitalClock/Main";
 
 function App() {
   return (

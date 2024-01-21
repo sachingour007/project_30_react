@@ -1,0 +1,35 @@
+.heading {
+  text-align: center;
+  font-size: 76px;
+  border: 2px solid rgb(228, 227, 227);
+  background-color: rgb(236, 234, 234);
+}
+.cardContainer {
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 5px;
+  width: 70%;
+  margin: 10px auto;
+  padding: 0 0px 10px 0px;
+}
+.cardContainer > h2 {
+  border: 1px solid rgb(174, 174, 174);
+  background-color: rgb(188, 187, 187);
+  line-height: 40px;
+  padding-left: 10px;
+}
+.dataCon {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  width: 60%;
+}
+.content h2 {
+  margin: 10px;
+}
+.content p {
+  margin: 10px;
+}
+.image {
+  width: calc(40% - 30px);
+}
