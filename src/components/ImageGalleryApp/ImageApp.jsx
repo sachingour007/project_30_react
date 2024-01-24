@@ -14,9 +14,9 @@ const ImageApp = () => {
   console.log(picture);
   //Fetch with async/await
   const getData = async () => {
-    const res = await fetch("https://picsum.photos/v2/list");
+    const res = await fetch("https://api.slingacademy.com/v1/sample-data/photos");
     const data = await res.json();
-    setPicture(data);
+    setPicture(data.photos);
     // console.log(data);
   };
 
