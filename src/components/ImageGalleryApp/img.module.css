@@ -1,26 +1,29 @@
 .main_container {
-  height: 70px;
   width: 100%;
-  background-color: rgb(13, 51, 2);
+  height: 100vh;
 }
-.main_container h1 {
+header {
+  height: 70px;
+  background-color: rgb(8, 53, 8);
+}
+header h1 {
   color: #fff;
   font-size: 48px;
+  text-align: center;
 }
 .wrraper {
+  padding: 0 10px;
   display: flex;
   flex-flow: wrap;
   align-items: center;
 }
-.imm {
-
-}
 .main_Card {
-  border: 1px solid red;
+  padding: 10px;
 }
 .imge {
 }
 .imge img {
-  width: 300px;
-  height: 200px;
+  max-width: 100%;
+  width: 359px;
+  height: 300px;
 }

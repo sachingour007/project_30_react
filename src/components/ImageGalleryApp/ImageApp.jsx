@@ -33,7 +33,9 @@ const ImageApp = () => {
   */
   return (
     <div className={style.main_container}>
-      <h1>Image Gallery</h1>
+        <header>
+            <h1>Image Gallery</h1>
+        </header>
       <div className={style.wrraper}>
         {picture.map((img) => {
           return <SingleImage key={img.id} {...img} />;
