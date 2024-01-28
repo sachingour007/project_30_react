@@ -5,10 +5,12 @@ import SingleAccordia from "./SingleAccordia";
 
 const Accordian = () => {
   const [select, setSelect] = useState(null);
+  const [flag, setFlag] = useState(false);
 
   const dropHandler = (id) => {
     console.log(id);
-    setSelect(id);
+    setSelect(select === id ? null : id);
+    // setFlag(true)
   };
 
   return (

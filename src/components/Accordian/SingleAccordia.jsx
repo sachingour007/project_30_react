@@ -8,6 +8,7 @@ const SingleAccordia = ({ id, title, ans, dropHandler, select }) => {
         <p>{title}</p>
         <span>+</span>
       </div>
+      {}
       {select === id ? (
         <div className={style.ans}>
           <p>{ans}</p>
